@@ -1,0 +1,152 @@
+@import url(/css/universal.css);
+
+/* cards */
+.cards {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    width: 100%;
+    max-width: 1200px;
+    flex-wrap: wrap;
+}
+
+.cards .card {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    background: var(--dimensional-color-3);
+    padding: 32px;
+    flex: 1 0 0;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+    min-width: 120px;
+}
+
+.cards .card * {
+    color: var(--dimensional-color-1)
+}
+
+.cards .card i {
+    font-size: 32px;
+}
+
+/* Jumbotron */
+.jumbotron {
+    min-height: 100svh;
+    background: linear-gradient(var(--dimensional-color-3), var(--dimensional-color-2));
+    gap: 16px
+}
+
+.jumbotron * {
+    color: var(--dimensional-color-1)
+}
+
+.jumbotron .jumbotext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    padding-top: 128px;
+}
+
+.jumbotron .jumbotext * {
+    color: var(--dimensional-color-1);
+}
+
+.jumbotron img {
+    position: absolute;
+    bottom: 0;
+    max-width: 65%;
+    filter: drop-shadow(0px 0px 12px rgba(0,0,0,0.25));
+}
+
+.jumbotron .jumbobutton  {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.jumbotron .jumbobutton * {
+    text-decoration: none;
+    filter: drop-shadow(0px 4px 8px rgba(0,0,0,0.25));
+    font-size: 18px;
+    padding: 18px 24px;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.jumbotron .jumbobutton .get {
+    background-color: var(--dimensional-color-5);
+    color: var(--dimensional-color-1);
+}
+
+.jumbotron .jumbobutton .online {
+    background-color: var(--dimensional-color-3);
+    color: var(--dimensional-color-1);   
+}
+
+/* trusted-by */
+.trusted-by {
+    padding-top: 64px !important;
+}
+
+.trusted-by .popup {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    
+    padding: 32px 48px;
+    border-radius: 8px; 
+    
+    background-color: var(--dimensional-color-3);
+}
+
+.trusted-by .popup * {
+    color: var(--dimensional-color-1);
+}
+
+.trusted-by .popup .companies {
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+    font-size: 32px;
+}
+
+/* security */
+
+.security img {
+    width: 25%
+}
+
+/* call-home */
+.call-home {
+    padding-bottom: 64px !important;
+}
+
+.call-home .button  {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.call-home .button * {
+    text-decoration: none;
+    filter: drop-shadow(0px 4px 8px rgba(0,0,0,0.25));
+    font-size: 18px;
+    padding: 18px 24px;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.call-home .button .get {
+    background-color: var(--dimensional-color-5);
+    color: var(--dimensional-color-1);
+}
+
+.call-home .button .online {
+    background-color: var(--dimensional-color-3);
+    color: var(--dimensional-color-1);
+}
