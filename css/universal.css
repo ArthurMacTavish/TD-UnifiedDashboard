@@ -8,7 +8,7 @@
 }
 
 /* Colour Accent */
-* {
+:root {
     --dimensional-color-1: #f3ebc5ff;
     --dimensional-color-2: #e5a632ff;
     --dimensional-color-3: #e03c30ff;
