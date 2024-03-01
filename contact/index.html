@@ -37,7 +37,8 @@
                 style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
             <div class="right-side">
-                <form action="https://formsubmit.co/inbox@reubenhu.my.id" method="post">
+                <form action="https://formsubmit.co/inbox@reubenhu.my.id" method="post" autocomplete="off">
+                    <input type="hidden" name="_next" id="next">
                     <input type="hidden" name="_captcha" value="false">
                     <input type="text" name="text" placeholder="Your Name" required>
                     <input type="email" name="email" placeholder="Your Email" required>
@@ -116,7 +117,15 @@
             </div>
             </div>
     </footer>
+    <div class="sent-modal-wrapper">
+        <div class="sent-modal">
+            <img src="/assets/contact/sent.jpg">
+            <h1>Your message is delivered!</h1>
+            <h2>Thanks for sending us a message!</h2>
+        </div>
+    </div>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="/js/contact.js"></script>
     <script>
         AOS.init();
     </script>
